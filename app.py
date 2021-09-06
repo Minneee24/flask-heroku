@@ -23,7 +23,7 @@ data = [
 
 @app.route('/')
 def hello():
-    return "Hello นางสาวไอรินทร์ เวคินธนัชพัชร์ เลขที่35 ชั้นม.4/8
+    return "Hello ไอรินทร์ เวคินธนัชพัชร์ เลขที่35 ชั้นม.4/8
 @app.route('/api', methods=['GET'])
 def get_api():
     return jsonify(data)
